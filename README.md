@@ -2,6 +2,8 @@
 
 A full-stack appointment-booking portfolio project. The studio, team members, services and SEK prices are fictional. No payments or email messages are sent.
 
+The booking-first interface uses a warm paper, coral and cobalt visual system. Its service selection, 14-day date strip, time slots, live session summary and browser-bound appointment list all use the existing booking API.
+
 ## Run
 
 Use Node24, `npm ci`, copy `.env.example` to `.env.local`, supply the three server variables, then `npm run dev`. Run `npm test`, `npm run typecheck`, `npm run build`, then start the server and run `npm run test:acceptance -- http://localhost:3000` and `npm run test:rls -- http://localhost:3000`. These integration checks use fictional appointments and cancel them afterward.
