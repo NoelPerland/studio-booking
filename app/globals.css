@@ -157,3 +157,4 @@ footer{max-width:none;width:100%;margin:0;padding:70px max(4vw,26px) 34px;displa
 @media(prefers-reduced-motion:reduce){.intro-content,.hero-art,.message.success{animation:none!important}.service-card:hover,.nav-book:hover,.hero-cta:hover{transform:none!important}}
 @media(max-width:800px){.site-header .text-button{display:inline-flex}}
 @media(max-width:560px){.site-header .nav-book{display:none}.site-header .text-button{font-size:11px}}
+@media(max-width:560px){.service-card{min-height:170px}.service-card p{font-size:13px;line-height:1.35}}
