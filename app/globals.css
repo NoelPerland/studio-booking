@@ -35,7 +35,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 main{max-width:none;margin:0}
 .intro,.hero-band,.booking-layout,.studio-story,.appointments{width:min(1360px,calc(100% - 72px));margin-left:auto;margin-right:auto}
 .intro{min-height:670px;padding:72px 12px 86px;display:grid;grid-template-columns:1.15fr .85fr;gap:5vw;align-items:center}
-.intro-content{position:relative;z-index:2;animation:forma-rise .65s both}
+.intro-content{position:relative;z-index:2}
 .eyebrow{font-size:11px;font-weight:700;letter-spacing:2px;color:var(--blue)}
 .live-dot{width:9px;height:9px;background:#ff674a;box-shadow:0 0 0 5px #ff674a22}
 .intro h1{font-size:clamp(76px,8.3vw,142px);line-height:.91;letter-spacing:-.095em;font-weight:700;margin:30px 0 25px;max-width:920px}
@@ -45,7 +45,7 @@ main{max-width:none;margin:0}
 .intro-actions{display:flex;align-items:center;gap:26px;margin-top:30px}
 .hero-cta{font-size:15px;padding:17px 22px;min-width:190px}
 .intro-actions>span{font-size:12px;line-height:1.5;color:#6a645e}
-.hero-art{position:relative;height:510px;min-width:0;background:#2549e8;color:#fff;border-radius:38px;overflow:hidden;box-shadow:19px 19px 0 #ff674a;transform:rotate(2deg);animation:forma-rise .8s .12s both}
+.hero-art{position:relative;height:510px;min-width:0;background:#2549e8;color:#fff;border-radius:38px;overflow:hidden;box-shadow:19px 19px 0 #ff674a;transform:rotate(2deg)}
 .hero-art:before{content:'';position:absolute;inset:18px;border:1.5px solid #ffffff66;border-radius:28px}
 .art-stamp{position:absolute;top:42px;left:46px;font-family:'Space Grotesk',sans-serif;font-size:clamp(19px,2.3vw,37px);font-weight:700;line-height:1.03;letter-spacing:-.045em;transform:rotate(-8deg)}
 .art-stamp span{display:inline-block;font-size:50px;color:#ffdb8a}
