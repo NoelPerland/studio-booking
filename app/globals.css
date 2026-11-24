@@ -78,7 +78,7 @@ fieldset+fieldset{border-color:#d9d0c4;margin-top:38px;padding-top:36px}
 .selected .radio-mark{border:7px solid #ffdb86}
 .availability-heading{margin-bottom:18px}
 .staff-picker,.timezone{font-size:13px;font-weight:600;color:var(--ink)}
-.staff-picker select{background:#faf3e9;border:1px solid #bcb3a7;border-radius:8px;font-size:13px;padding:8px 25px 8px 12px}
+.staff-picker select{min-height:44px;background:#faf3e9;border:1px solid #bcb3a7;border-radius:8px;font-size:13px;padding:8px 25px 8px 12px}
 .date-strip{gap:8px;padding-bottom:16px}
 .date-choice{flex-basis:78px;min-height:91px;border:1.5px solid #c7beb2;border-radius:14px;background:#faf3e9;transition:transform .18s,background .18s}
 .date-choice:hover:not(.selected){transform:translateY(-3px);border-color:var(--blue)}

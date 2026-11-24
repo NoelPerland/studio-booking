@@ -12,7 +12,7 @@
     "test:rls": "node scripts/check-rls.mjs"
   },
   "dependencies": {
-    "next": "16.4.3",
+    "next": "16.4.6",
     "react": "19.3.1",
     "react-dom": "19.3.1",
     "zod": "4.6.7"
